@@ -22,6 +22,19 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Pagina1()
+    {
+        return View("Pagina1");
+    }
+     public IActionResult Pagina2()
+    {
+        return View("Pagina2");
+    }
+    public IActionResult Pagina3()
+    {
+        return View("Pagina3");
+    }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
