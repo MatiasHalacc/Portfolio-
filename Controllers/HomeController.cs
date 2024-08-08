@@ -32,6 +32,7 @@ public class HomeController : Controller
     }
     public IActionResult Pagina3()
     {
+        ViewBag.Macabilandia = Models.data.Macabilandia;
         return View("Pagina3");
     }
 

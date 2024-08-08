@@ -1,16 +1,13 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../Imagenes/Macabilandia.jpg" class="d-block w-50" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../Imagenes/Macabilandia2.jpg" class="d-block w-50" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../Imagenes/Macabilandia3.jpg" class="d-block w-50" alt="...">
-    </div>
+    @for (int i = 0; i < ViewBag.Macabilandia.Length; i++)
+    {
+        <div class="carousel-item @(i == 0 ? "active" : "")">
+            <img src="@ViewBag.Macabilandia[i]" class="d-block w-50" alt="...">
+        </div>
+    }
   </div>
   <p>
-  Macabilandia es el lugar al que todo janij del club ha visitado o quiere visitar alguna vez. En este lugar se hacen actividades de todo tipo durante todo el dia y es un lugar para que los chicos puedan disfrutar de un lindo campamento.
+    Macabilandia es el lugar al que todo janij del club ha visitado o quiere visitar alguna vez. En este lugar se hacen actividades de todo tipo durante todo el día y es un lugar para que los chicos puedan disfrutar de un lindo campamento.
   </p>
 </div>

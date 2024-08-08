@@ -21,8 +21,20 @@
       "PackagePath": "staticwebassets\\Imagenes\\Macabilandia.jpg"
     },
     {
+      "Id": "C:\\Users\\48792865\\Downloads\\Portfolio-\\wwwroot\\Imagenes\\Macabilandia2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Macabilandia2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48792865\\Downloads\\Portfolio-\\wwwroot\\Imagenes\\Macabilandia3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Macabilandia3.jpg"
+    },
+    {
       "Id": "C:\\Users\\48792865\\Downloads\\Portfolio-\\wwwroot\\Imagenes\\Mapa.jpg",
       "PackagePath": "staticwebassets\\Imagenes\\Mapa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48792865\\Downloads\\Portfolio-\\wwwroot\\Imagenes\\Sede.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sede.jpg"
     },
     {
       "Id": "C:\\Users\\48792865\\Downloads\\Portfolio-\\wwwroot\\Imagenes\\Ubicacion.jpg",
